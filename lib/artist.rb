@@ -1,6 +1,6 @@
-require 'pry'
+#require 'pry'
 require_relative './song.rb'
-
+#require_relative './lib/concerns/memorable.rb'
 
 class Artist
   attr_accessor :name

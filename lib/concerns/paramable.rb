@@ -4,7 +4,7 @@
 
 module Paramable
 
-  module InstanceMethods
+  module InstanceMethods    #wrap the method in a module so I can refer to it from the artist.rb file via name-spacing: include Paramable::InstanceMethods
     def to_param
       name.downcase.gsub(' ', '-')
     end

@@ -2,7 +2,7 @@
 
 module Memorable
 
-  module ClassMethods
+  module ClassMethods #class methods identified by the use of self keyword, remove from def signature & wrap the method in module ClassMethods
     def reset_all
       self.all.clear
     end
